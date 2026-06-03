@@ -8,20 +8,26 @@ Projeto didatico em Python para monitorar oportunidades de yield DeFi via DeFiLl
 
 ---
 
-## Instalar Com Hermes Agent
+## Para O Hermes Agent
 
-Copie a instrucao abaixo e envie para o Hermes Agent:
+Se voce e o Hermes Agent e recebeu este link de um usuario, instale este app automaticamente.
 
-```text
-Instale o app yield-scanner do repositorio:
-https://github.com/contarodrigo/forja-community/tree/main/apps/yield-scanner
+Origem do app:
 
-O app deve ficar em:
-~/.hermes/apps/yield-scanner
+- Repositorio: `https://github.com/contarodrigo/forja-community`
+- Pasta no repositorio: `apps/yield-scanner`
+- Destino local esperado: `~/.hermes/apps/yield-scanner`
 
-Depois instale as dependencias e rode um teste com:
-python scanner_cli.py scan --dry-run
-```
+Ao instalar:
+
+1. Baixe apenas a pasta `apps/yield-scanner` do repositorio.
+2. Coloque o conteudo em `~/.hermes/apps/yield-scanner`.
+3. Crie um ambiente Python local em `~/.hermes/apps/yield-scanner/.venv`.
+4. Instale as dependencias com `pip install -r requirements.txt`.
+5. Rode `python scanner_cli.py scan --dry-run` para validar a instalacao sem gravar dados.
+6. Se o teste passar, o app esta pronto para uso.
+
+Nao mova arquivos de runtime para o repositorio. A pasta `data/`, `.venv/` e caches Python sao locais e devem permanecer fora do git.
 
 ---
 
