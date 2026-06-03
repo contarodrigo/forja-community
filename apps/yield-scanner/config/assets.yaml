@@ -1,0 +1,23 @@
+# Criptomoedas monitoradas e configuracao de ativos
+
+assets:
+  btc:
+    id: bitcoin
+    symbol: BTC
+    name: Bitcoin
+    monitor: true
+    alert_threshold_pct: 5.0
+
+  eth:
+    id: ethereum
+    symbol: ETH
+    name: Ethereum
+    monitor: true
+    alert_threshold_pct: 5.0
+
+  sol:
+    id: solana
+    symbol: SOL
+    name: Solana
+    monitor: true
+    alert_threshold_pct: 5.0

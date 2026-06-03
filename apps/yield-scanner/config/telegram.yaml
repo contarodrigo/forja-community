@@ -1,0 +1,7 @@
+# Configuração Telegram — valores lidos de variáveis de ambiente
+# TELEGRAM_BOT_TOKEN e TELEGRAM_CHAT_ID devem estar definidas no ambiente
+
+telegram:
+  bot_token_env: TELEGRAM_BOT_TOKEN
+  chat_id_env: TELEGRAM_CHAT_ID
+  enabled: true  # false se variáveis não existirem

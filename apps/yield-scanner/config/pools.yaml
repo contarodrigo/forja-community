@@ -1,0 +1,27 @@
+# Pools DeFi monitorizadas — APR scanner
+# Chains: Ethereum, Solana
+
+pools:
+  - name: Uniswap V3 ETH/USDC
+    chain: ethereum
+    pool_id: "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"  # USDC/ETH 0.05%
+    protocol: uniswap_v3
+    monitor: true
+
+  - name: Uniswap V3 ETH/WBTC
+    chain: ethereum
+    pool_id: "0xcbcdf9625bc2706b2a8c2d9779f7d7c93e9e9d7c"  # WBTC/ETH 0.05%
+    protocol: uniswap_v3
+    monitor: true
+
+  - name: Raydium SOL/USDC
+    chain: solana
+    pool_id: "8BnZpBrJSoWdKf5uHDhDvR9yFE9Cggbj6VFrk1t3BsJ"  # SOL-USDC CLMM
+    protocol: raydium
+    monitor: true
+
+  - name: Raydium SOL/ETH
+    chain: solana
+    pool_id: "5ZpLzTrEcvALxpN2kZEsZ2R2LS69eP2NVRxNwKGpECRu"  # SOL-ETH CLMM
+    protocol: raydium
+    monitor: true
